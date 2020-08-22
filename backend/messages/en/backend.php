@@ -1,0 +1,197 @@
+<?php
+
+return [
+    'Title.App' => 'CONTROL PANEL',
+
+    'SideBarMenu.UserPanel.Welcome' => 'Hi, {name}',
+    'SideBarMenu.UserPanel.MemberSince' => 'Member since {0, date, short}',
+    'SideBarMenu.UserPanel.LoggedAt' => 'Logged on {0, date, short} at {0, time, HH:mm}',
+    'SideBarMenu.ToggleButton' => 'Toggle',
+
+    'NavBarMenu.Profile' => 'My profile',
+    'NavBarMenu.Logout' => 'Logout',
+
+    'SideBarMenu.Title.Main' => 'Main',
+    'SideBarMenu.Title.Report' => 'Report',
+    'SideBarMenu.Title.System' => 'System',
+
+    'SideBarMenu.Item.Dashboard' => 'Dashboard',
+    'SideBarMenu.Item.Contents' => 'Contents',
+    'SideBarMenu.Item.Profile' => 'My profile',
+    'SideBarMenu.Item.Logout' => 'Logout',
+    'SideBarMenu.Item.Users' => 'Users',
+    'SideBarMenu.Item.Groups' => 'Groups',
+    'SideBarMenu.Item.Permissions' => 'Permissions',
+    'SideBarMenu.Item.Settings' => 'Settings',
+    'SideBarMenu.Item.Galleries' => 'Galleries',
+    'SideBarMenu.Item.Report.UserReport' => 'Users',
+    'SideBarMenu.Item.Report.CustomerReport' => 'Customers',
+    'SideBarMenu.Item.Customers' => 'Customers',
+    'SideBarMenu.Item.Preferences' => 'Preferences',
+    'SideBarMenu.Item.Logs' => 'Logs',
+
+    'Title.User.Login' => 'Login',
+    'Title.Site.Index' => 'Dashboard',
+
+    'Site.Error.MessageLine1' => 'The above error occurred while the system was processing your request.',
+    'Site.Error.MessageLine2' => 'If the problem persists, please contact us. Thank you.',
+
+    'DropDown.Empty' => 'Select...',
+
+    'Content.Area.Title' => 'Content',
+    'User.Area.Title' => 'User',
+    'UserReport.Area.Title' => 'User report',
+    'CustomerReport.Area.Title' => 'Customer report',
+    'Settings.Area.Title' => 'Settings',
+    'Profile.Area.Title' => 'Profile',
+    'Group.Area.Title' => 'Group',
+    'Permission.Area.Title' => 'Permission',
+    'Gallery.Area.Title' => 'Gallery',
+    'Customer.Area.Title' => 'Customer',
+    'Preference.Area.Title' => 'Preference',
+    'Log.Area.Title' => 'Log',
+
+    'Common.Area.Index.Title' => '{areaTitle} - Search',
+    'Common.Area.Index.Breadcrumb.Title' => '{areaTitle}',
+    'Common.Area.View.Title' => '{areaTitle} - View - {id}',
+    'Common.Area.View.Breadcrumb.Title' => 'View',
+    'Common.Area.Create.Title' => '{areaTitle} - Create',
+    'Common.Area.Create.Breadcrumb.Title' => 'Create',
+    'Common.Area.Update.Title' => '{areaTitle} - Update',
+    'Common.Area.Update.Breadcrumb.Title' => 'Update',
+    'Common.Area.Delete.Title' => '{areaTitle} - Delete',
+    'Common.Area.Delete.Breadcrumb.Title' => 'Delete',
+    'Common.Area.Report.Title' => 'Report - {areaTitle}',
+    'Common.Area.Report.Breadcrumb.Title' => 'Report - {areaTitle}',
+
+    'Button.Create' => 'Create {modelClass}',
+    'Button.Search' => 'Search',
+    'Button.Reset' => 'Clear',
+    'Button.Update' => 'Update {modelClass}',
+    'Button.Delete' => 'Delete',
+    'Button.Back' => 'Back',
+    'Button.GenerateReport' => 'Generate report',
+    'Button.AddItem' => 'Add item',
+    'Button.RemoveItem' => 'Remove item',
+    'Button.Login' => 'Login',
+    'Button.LoginFromError' => 'Login',
+    'Button.Confirm' => 'Confirm',
+
+    'Message.DeleteConfirm' => 'Do you want to delete this item?',
+    'Message.ItemCreated' => 'The item was created successfully.',
+    'Message.ItemUpdated' => 'The item has been successfully updated.',
+    'Message.ItemDeleted' => 'The item was successfully deleted.',
+    'Message.ItemNotFound' => 'The requested item was not found.',
+    'Message.Confirm' => 'Are you sure you want to continue?',
+    'Message.ExternalIdTaken' => 'This external code is already being used',
+    'Message.Profile.Updated' => 'Your profile has been updated successfully.',
+
+    'Label.Language' => 'Language',
+    'Label.SelectDepDrop' => 'Select...',
+    'Label.Customer' => 'Customer',
+    'Label.Image' => 'Image',
+    'Label.Actions' => 'Actions',
+
+    'Settings.Area.UpdatePermissions.Title' => 'Update permissions',
+    'Settings.Area.UpdatePermissions.Message' => 'Do you want to update the system permissions?<br>Automatically the new ones will be registered and those that no longer exist will be removed.',
+    'Settings.Area.UpdatePermissions.Button' => 'Update permissions',
+    'Settings.Area.UpdatePermissions.FinishedOK' => 'System permissions have been updated!',
+
+    'Settings.Area.ClearCache.Title' => 'Clear cache',
+    'Settings.Area.ClearCache.Message' => 'Do you want to clear the system cache?<br>It will automatically be recreated as customers access the system.',
+    'Settings.Area.ClearCache.FinishedOK' => 'The cache was successfully cleared!',
+    'Settings.Area.ClearCache.Button' => 'Clear cache',
+
+    'Settings.Area.ClearLog.Title' => 'Clear the logs',
+    'Settings.Area.ClearLog.Message' => 'Do you want to clear the system logs?',
+    'Settings.Area.ClearLog.FinishedOK' => 'The logs have been removed successfully!',
+    'Settings.Area.ClearLog.Button' => 'Clear the logs',
+
+    'Group.Area.TabData' => 'Data',
+    'Group.Area.TabPermissions' => 'Permissions',
+
+    'User.Area.TabData' => 'Data',
+    'User.Area.TabGroups' => 'Groups',
+
+    'Gallery.Area.TabData' => 'Data',
+    'Gallery.Area.TabItems' => 'Images',
+
+    'Customer.Area.TabData' => 'Data',
+
+    'Error.Access.UserNotAllowedBecauseIsGuest' => 'You are not allowed to perform this action',
+
+    'Permission.ActionGroup.System' => 'System',
+    'Permission.ActionGroup.Profile' => 'My profile',
+    'Permission.ActionGroup.User' => 'User',
+    'Permission.ActionGroup.Group' => 'Group',
+    'Permission.ActionGroup.Permission' => 'Permission',
+    'Permission.ActionGroup.Content' => 'Content',
+    'Permission.ActionGroup.Report' => 'Report',
+    'Permission.ActionGroup.Gallery' => 'Gallery',
+    'Permission.ActionGroup.Util' => 'Utilities',
+    'Permission.ActionGroup.Preference' => 'Preference',
+    'Permission.ActionGroup.Log' => 'Log',
+
+    'Permission.Site.Index' => 'Dashboard',
+    'Permission.Site.SetSidebarMenuState' => 'Change side menu status',
+    'Permission.Settings.Index' => 'View settings',
+    'Permission.Settings.UpdatePermissions' => 'Update permissions',
+
+    'Permission.Menu.Main' => 'View the menu: Main',
+    'Permission.Menu.Report' => 'View the menu: Report',
+    'Permission.Menu.System' => 'See the menu: System',
+
+    'Permission.Profile.Index' => 'My profile',
+    'Permission.Profile.AvatarUpload' => 'Avatar upload',
+    'Permission.Profile.AvatarDelete' => 'Remove the avatar',
+
+    'Permission.User.Index' => 'View users',
+    'Permission.User.Create' => 'Create user',
+    'Permission.User.Update' => 'Update user',
+    'Permission.User.View' => 'View user',
+    'Permission.User.Delete' => 'Delete user',
+
+    'Permission.Group.Index' => 'View groups',
+    'Permission.Group.Create' => 'Create group',
+    'Permission.Group.Update' => 'Update group',
+    'Permission.Group.View' => 'View group',
+    'Permission.Group.Delete' => 'Delete group',
+
+    'Permission.Permission.Index' => 'View permissions',
+    'Permission.Permission.Create' => 'Create permission',
+    'Permission.Permission.Update' => 'Update permission',
+    'Permission.Permission.View' => 'View permission',
+    'Permission.Permission.Delete' => 'Delete permission',
+
+    'Permission.Content.Index' => 'View contents',
+    'Permission.Content.Create' => 'Create content',
+    'Permission.Content.Update' => 'Update content',
+    'Permission.Content.View' => 'View content',
+    'Permission.Content.Delete' => 'Delete content',
+    'Permission.Content.GetImages' => 'List images for the editor',
+    'Permission.Content.UploadImage' => 'Upload image from editor',
+
+    'Permission.Gallery.Index' => 'View galleries',
+    'Permission.Gallery.Create' => 'Create gallery',
+    'Permission.Gallery.Update' => 'Update gallery',
+    'Permission.Gallery.View' => 'View gallery',
+    'Permission.Gallery.Delete' => 'Delete gallery',
+    'Permission.Gallery.ItemUpload' => 'Upload item to gallery',
+    'Permission.Gallery.ItemDelete' => 'Delete item from gallery',
+
+    'Permission.Preference.Index' => 'View preferences',
+    'Permission.Preference.Update' => 'Update preference',
+    'Permission.Preference.View' => 'View preference',
+
+    'Permission.Log.Index' => 'View logs',
+    'Permission.Log.View' => 'View log',
+    'Permission.Log.Delete' => 'Delete log',
+
+    'Permission.Reports.UserReport.Index' => 'User report',
+    'Permission.Reports.CustomerReport.Index' => 'Customer report',
+
+    'Group.Name.BasicAccess' => 'Basic access',
+
+    'Prompt.All.Male' => 'All',
+    'Prompt.All.Female' => 'All',
+];

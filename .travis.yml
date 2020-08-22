@@ -1,0 +1,36 @@
+language: php
+
+services:
+  - docker
+
+sudo: false
+
+env:
+  global:
+    - DOCKER_COMPOSE_VERSION=1.24.1
+    - Y2AA_ENVIRONMENT_DEV=1
+
+before_install:
+  - sudo /etc/init.d/mysql stop
+  - sudo /etc/init.d/memcached stop
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+
+script:
+  - make clear
+  - make docker-compose-rebuild
+  - make docker-compose-start
+  - sleep 30
+  - make config-env-development docker=1
+  - make create-db docker=1
+  - make php-composer-install docker=1
+  - make migrate-db docker=1
+  - make console-test docker=1
+  - make console-data-all docker=1
+  - make console-create-cache-table docker=1
+  - make create-db-test docker=1
+  - make migrate-db-test docker=1
+  - make console-create-cache-table-test docker=1
+  - make test docker=1

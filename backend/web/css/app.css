@@ -1,0 +1,105 @@
+/* general */
+.error-summary {
+    color: #dc3545;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 10px;
+    display: block;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+.img-mw-30 {
+    max-width: 30px;
+}
+
+.img-mw-50 {
+    max-width: 50px;
+}
+
+.img-mw-100 {
+    max-width: 100px;
+}
+
+.img-mw-200 {
+    max-width: 200px;
+}
+
+.img-mw-300 {
+    max-width: 300px;
+}
+
+/* redactor */
+.redactor-toolbar li a:hover {
+    color: #fff !important;
+}
+.redactor-toolbar li a:hover i:before {
+    color: #fff !important;
+}
+
+/* grid */
+.grid-action-column {
+    text-align: center;
+}
+
+/* report */
+.card-report .card-header {
+    background-color: transparent !important;
+    padding: 0.75rem 0;
+}
+
+/* group */
+.group-view i.text-success {
+    color: #14c517;
+}
+
+.group-view i.text-danger {
+    color: #c50d00;
+}
+
+/* user */
+.user-view i.text-success {
+    color: #14c517;
+}
+
+.user-view i.text-danger {
+    color: #c50d00;
+}
+
+/* gallery */
+.gallery-items {
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-items .gallery-item {
+    position: relative;
+    height: 150px;
+    color: #999;
+    border: 2px dashed #999;
+    border-radius: 7px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-origin: border-box;
+    list-style: none;
+}
+
+.gallery-items .gallery-item img {
+    height: 100%;
+    width: auto;
+    border-radius: 7px;
+}
+
+/* error page */
+.error-page > .error-content {
+    margin-left: 0;
+}

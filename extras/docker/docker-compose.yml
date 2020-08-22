@@ -1,0 +1,62 @@
+version: '3'
+services:
+  # database
+  mysql:
+    container_name: y2aa_mysql
+    image: mysql:5.7.31
+    ports:
+      - 3306:3306
+    volumes:
+      # NOTE: your data will be stored in ./mysql/data, but will be ignored to git
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/schemes:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+
+  # memcached
+  memcached:
+    container_name: y2aa_memcached
+    image: memcached:1.6.6
+    ports:
+      - 11211:11211
+
+  # php-fpm
+  php-fpm:
+    container_name: y2aa_php_fpm
+    build: ./php-fpm
+    working_dir: /usr/share/nginx/html
+    ports:
+      - 9000:9000
+    volumes:
+      - ${WWW_DIR}:/usr/share/nginx/html
+      - ./php-fpm/php.ini:/usr/local/etc/php/php.ini:ro
+    environment:
+      - WWW_DIR=/usr/share/nginx/html
+    depends_on:
+      - mysql
+
+  # web server
+  nginx:
+    container_name: y2aa_nginx
+    image: nginx:1.19.1
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      # app
+      - ${WWW_DIR}:/usr/share/nginx/html
+      # nginx configs
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d/:/etc/nginx/conf.d/:ro
+      # nginx SSL
+      - ./nginx/ssl/:/etc/nginx/ssl/:ro
+    depends_on:
+      - php-fpm
+
+  # mailcatcher
+  mailcatcher:
+    container_name: y2aa_mailcatcher
+    build: ./mailcatcher
+    ports:
+      - 1025:1025
+      - 1080:1080

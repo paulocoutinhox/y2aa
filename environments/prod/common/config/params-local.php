@@ -1,0 +1,20 @@
+<?php
+return [
+    'adminEmail' => 'paulo@prsolucoes.com',
+    'supportEmail' => 'paulo@prsolucoes.com',
+    'userPasswordResetTokenExpire' => 3600,
+    'customerPasswordResetTokenExpire' => 3600,
+    'customerVerificationTokenExpire' => 3600,
+    'customerHasSignUpVerification' => true,
+    'customerPasswordMinLength' => 6,
+    'databaseTimeZone' => 'UTC',
+    'absoluteURL' => 'http://y2aa.local',
+    'defaultTimeZone' => 'America/Sao_Paulo',
+    'androidAppUrl' => '',
+    'iosAppUrl' => '',
+    'captchaOnLogin' => true,
+    'captchaOnSignUp' => true,
+    'captchaOnContact' => true,
+    'captchaOnResendVerificationEmail' => true,
+    'captchaOnRequestPasswordReset' => true,
+];

@@ -1,0 +1,81 @@
+{
+  "name": "prsolucoes/y2aa",
+  "description": "Yii 2 Advanced App Template",
+  "keywords": [
+    "y2aa",
+    "yii2",
+    "framework",
+    "base",
+    "advanced"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/prsolucoes/y2aa"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "2.0.36",
+    "yiisoft/yii2-bootstrap4": "2.0.8",
+    "yiisoft/yii2-swiftmailer": "2.1.2",
+    "yiisoft/yii2-jui": "2.0.7",
+    "yiisoft/yii2-httpclient": "2.0.12",
+    "bower-asset/admin-lte": "3.0.5",
+    "bower-asset/font-awesome": "5.14.0",
+    "bower-asset/html5shiv": "3.7.3",
+    "bower-asset/jquery": ">=1.9.0 <4.0.0",
+    "bower-asset/jquery-slimscroll": "1.3.8",
+    "bower-asset/js-cookie": "2.2.1",
+    "bower-asset/lightbox2": "2.11.3",
+    "bower-asset/respond": "1.4.2",
+    "bower-asset/bootbox": "5.4.0",
+    "fortawesome/font-awesome": "5.14.0",
+    "kartik-v/yii2-grid": "3.3.5",
+    "kartik-v/yii2-export": "1.4.1",
+    "yii2-starter-kit/yii2-file-kit": "2.1.5",
+    "intervention/image": "2.5.1",
+    "vova07/yii2-imperavi-widget": "2.0.11",
+    "kartik-v/yii2-widget-datepicker": "1.4.7",
+    "kartik-v/yii2-widget-datetimepicker": "1.4.9",
+    "kartik-v/yii2-datecontrol": "1.9.7",
+    "kartik-v/yii2-widget-depdrop": "1.0.6",
+    "ausi/slug-generator": "1.1.0",
+    "lcobucci/jwt": "3.3.2",
+    "yiibr/yii2-br-validator": "1.1.1",
+    "ramsey/uuid": "4.1.0",
+    "mobiledetect/mobiledetectlib": "2.8.34",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-fileinfo": "*",
+    "ext-intl": "*",
+    "ext-zip": "*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "2.1.13",
+    "yiisoft/yii2-gii": "2.2.1",
+    "yiisoft/yii2-faker": "2.0.4",
+    "codeception/codeception": "4.1.6",
+    "codeception/module-asserts": "1.2.1",
+    "codeception/module-yii2": "1.1.0",
+    "codeception/module-filesystem": "1.0.2",
+    "codeception/verify": "1.3.0",
+    "symfony/browser-kit": "4.3.5"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

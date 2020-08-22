@@ -1,0 +1,197 @@
+<?php
+
+return [
+    'Title.App' => 'PAINEL DE CONTROLE',
+
+    'SideBarMenu.UserPanel.Welcome' => 'Olá, {name}',
+    'SideBarMenu.UserPanel.MemberSince' => 'Membro desde {0, date, short}',
+    'SideBarMenu.UserPanel.LoggedAt' => 'Logado desde {0, date, short} às {0, time, HH:mm}',
+    'SideBarMenu.ToggleButton' => 'Alternar',
+
+    'NavBarMenu.Profile' => 'Meu perfil',
+    'NavBarMenu.Logout' => 'Sair',
+
+    'SideBarMenu.Title.Main' => 'Principal',
+    'SideBarMenu.Title.Report' => 'Relatório',
+    'SideBarMenu.Title.System' => 'Sistema',
+
+    'SideBarMenu.Item.Dashboard' => 'Dashboard',
+    'SideBarMenu.Item.Contents' => 'Conteúdos',
+    'SideBarMenu.Item.Profile' => 'Meu perfil',
+    'SideBarMenu.Item.Logout' => 'Sair',
+    'SideBarMenu.Item.Users' => 'Usuários',
+    'SideBarMenu.Item.Groups' => 'Grupos',
+    'SideBarMenu.Item.Permissions' => 'Permissões',
+    'SideBarMenu.Item.Settings' => 'Configurações',
+    'SideBarMenu.Item.Galleries' => 'Galerias',
+    'SideBarMenu.Item.Report.UserReport' => 'Usuários',
+    'SideBarMenu.Item.Report.CustomerReport' => 'Clientes',
+    'SideBarMenu.Item.Customers' => 'Clientes',
+    'SideBarMenu.Item.Preferences' => 'Preferências',
+    'SideBarMenu.Item.Logs' => 'Logs',
+
+    'Title.User.Login' => 'Entrar',
+    'Title.Site.Index' => 'Dashboard',
+
+    'Site.Error.MessageLine1' => 'O erro acima ocorreu enquanto o sistema estava processando sua requisição.',
+    'Site.Error.MessageLine2' => 'Se o problema persistir, por favor, entre em contato conosco. Obrigado.',
+
+    'DropDown.Empty' => 'Selecionar...',
+
+    'Content.Area.Title' => 'Conteúdo',
+    'User.Area.Title' => 'Usuário',
+    'UserReport.Area.Title' => 'Usuários',
+    'CustomerReport.Area.Title' => 'Clientes',
+    'Settings.Area.Title' => 'Configurações',
+    'Profile.Area.Title' => 'Meu perfil',
+    'Group.Area.Title' => 'Grupo',
+    'Permission.Area.Title' => 'Permissão',
+    'Gallery.Area.Title' => 'Galeria',
+    'Customer.Area.Title' => 'Cliente',
+    'Preference.Area.Title' => 'Preferência',
+    'Log.Area.Title' => 'Log',
+
+    'Common.Area.Index.Title' => '{areaTitle} - Pesquisar',
+    'Common.Area.Index.Breadcrumb.Title' => '{areaTitle}',
+    'Common.Area.View.Title' => '{areaTitle} - Visualizar - {id}',
+    'Common.Area.View.Breadcrumb.Title' => 'Visualizar',
+    'Common.Area.Create.Title' => '{areaTitle} - Criar',
+    'Common.Area.Create.Breadcrumb.Title' => 'Criar',
+    'Common.Area.Update.Title' => '{areaTitle} - Alterar',
+    'Common.Area.Update.Breadcrumb.Title' => 'Alterar',
+    'Common.Area.Delete.Title' => '{areaTitle} - Excluir',
+    'Common.Area.Delete.Breadcrumb.Title' => 'Excluir',
+    'Common.Area.Report.Title' => 'Relatório - {areaTitle}',
+    'Common.Area.Report.Breadcrumb.Title' => 'Relatório - {areaTitle}',
+
+    'Button.Create' => 'Criar {modelClass}',
+    'Button.Search' => 'Pesquisar',
+    'Button.Reset' => 'Limpar',
+    'Button.Update' => 'Alterar {modelClass}',
+    'Button.Delete' => 'Excluir',
+    'Button.Back' => 'Voltar',
+    'Button.GenerateReport' => 'Gerar relatório',
+    'Button.AddItem' => 'Adicionar item',
+    'Button.RemoveItem' => 'Remover item',
+    'Button.Login' => 'Login',
+    'Button.LoginFromError' => 'Efetuar login',
+    'Button.Confirm' => 'Confirmar',
+
+    'Message.DeleteConfirm' => 'Você deseja excluir este item?',
+    'Message.ItemCreated' => 'O item foi criado com sucesso.',
+    'Message.ItemUpdated' => 'O item foi alterado com sucesso.',
+    'Message.ItemDeleted' => 'O item foi excluído com sucesso.',
+    'Message.ItemNotFound' => 'O item solicitado não foi encontrado.',
+    'Message.Confirm' => 'Tem certeza que deseja continuar?',
+    'Message.ExternalIdTaken' => 'Este código externo já está sendo usado',
+    'Message.Profile.Updated' => 'Seu perfil foi atualizado com sucesso.',
+
+    'Label.Language' => 'Idioma',
+    'Label.SelectDepDrop' => 'Selecione...',
+    'Label.Customer' => 'Cliente',
+    'Label.Image' => 'Imagem',
+    'Label.Actions' => 'Ações',
+
+    'Settings.Area.UpdatePermissions.Title' => 'Atualizar permissões',
+    'Settings.Area.UpdatePermissions.Message' => 'Deseja atualizar as permissões do sistema?<br>Automaticamente as novas serão cadastradas e as que não existem mais serão removidas.',
+    'Settings.Area.UpdatePermissions.Button' => 'Atualizar permissões',
+    'Settings.Area.UpdatePermissions.FinishedOK' => 'As permissões do sistema foram atualizadas!',
+
+    'Settings.Area.ClearCache.Title' => 'Limpar o cache',
+    'Settings.Area.ClearCache.Message' => 'Deseja limpar o cache do sistema?<br>Automaticamente ele será recriado conforme os clientes acessam o sistema.',
+    'Settings.Area.ClearCache.FinishedOK' => 'O cache foi limpo com sucesso!',
+    'Settings.Area.ClearCache.Button' => 'Limpar cache',
+
+    'Settings.Area.ClearLog.Title' => 'Limpar os logs',
+    'Settings.Area.ClearLog.Message' => 'Deseja limpar os logs do sistema?',
+    'Settings.Area.ClearLog.FinishedOK' => 'Os logs foram removidos com sucesso!',
+    'Settings.Area.ClearLog.Button' => 'Limpar os logs',
+
+    'Group.Area.TabData' => 'Dados',
+    'Group.Area.TabPermissions' => 'Permissões',
+
+    'User.Area.TabData' => 'Dados',
+    'User.Area.TabGroups' => 'Grupos',
+
+    'Gallery.Area.TabData' => 'Dados',
+    'Gallery.Area.TabItems' => 'Imagens',
+
+    'Customer.Area.TabData' => 'Dados',
+
+    'Error.Access.UserNotAllowedBecauseIsGuest' => 'Você não tem permissão para executar esta ação',
+
+    'Permission.ActionGroup.System' => 'Sistema',
+    'Permission.ActionGroup.Profile' => 'Meu perfil',
+    'Permission.ActionGroup.User' => 'Usuário',
+    'Permission.ActionGroup.Group' => 'Grupo',
+    'Permission.ActionGroup.Permission' => 'Permissão',
+    'Permission.ActionGroup.Content' => 'Conteúdo',
+    'Permission.ActionGroup.Report' => 'Relatório',
+    'Permission.ActionGroup.Gallery' => 'Galeria',
+    'Permission.ActionGroup.Util' => 'Utilitários',
+    'Permission.ActionGroup.Preference' => 'Preferência',
+    'Permission.ActionGroup.Log' => 'Log',
+
+    'Permission.Site.Index' => 'Dashboard',
+    'Permission.Site.SetSidebarMenuState' => 'Mudar estado do menu lateral',
+    'Permission.Settings.Index' => 'Ver configurações',
+    'Permission.Settings.UpdatePermissions' => 'Atualizar permissões',
+
+    'Permission.Menu.Main' => 'Ver o menu: Principal',
+    'Permission.Menu.Report' => 'Ver o menu: Relatório',
+    'Permission.Menu.System' => 'Ver o menu: Sistema',
+
+    'Permission.Profile.Index' => 'Meu perfil',
+    'Permission.Profile.AvatarUpload' => 'Upload de avatar',
+    'Permission.Profile.AvatarDelete' => 'Remover o avatar',
+
+    'Permission.User.Index' => 'Ver os usuários',
+    'Permission.User.Create' => 'Criar usuário',
+    'Permission.User.Update' => 'Alterar usuário',
+    'Permission.User.View' => 'Ver usuário',
+    'Permission.User.Delete' => 'Remover usuário',
+
+    'Permission.Group.Index' => 'Ver os grupos',
+    'Permission.Group.Create' => 'Criar grupo',
+    'Permission.Group.Update' => 'Alterar grupo',
+    'Permission.Group.View' => 'Ver grupo',
+    'Permission.Group.Delete' => 'Remover grupo',
+
+    'Permission.Permission.Index' => 'Ver as permissões',
+    'Permission.Permission.Create' => 'Criar permissão',
+    'Permission.Permission.Update' => 'Alterar permissão',
+    'Permission.Permission.View' => 'Ver permissão',
+    'Permission.Permission.Delete' => 'Remover permissão',
+
+    'Permission.Content.Index' => 'Ver os conteúdos',
+    'Permission.Content.Create' => 'Criar conteúdo',
+    'Permission.Content.Update' => 'Alterar conteúdo',
+    'Permission.Content.View' => 'Ver conteúdo',
+    'Permission.Content.Delete' => 'Remover conteúdo',
+    'Permission.Content.GetImages' => 'Listar imagens para o editor',
+    'Permission.Content.UploadImage' => 'Enviar imagem pelo editor',
+
+    'Permission.Gallery.Index' => 'Ver as galerias',
+    'Permission.Gallery.Create' => 'Criar galeria',
+    'Permission.Gallery.Update' => 'Alterar galeria',
+    'Permission.Gallery.View' => 'Ver galeria',
+    'Permission.Gallery.Delete' => 'Remover galeria',
+    'Permission.Gallery.ItemUpload' => 'Upload de item para a galeria',
+    'Permission.Gallery.ItemDelete' => 'Apagar item da galeria',
+
+    'Permission.Preference.Index' => 'Ver as preferências',
+    'Permission.Preference.Update' => 'Alterar preferência',
+    'Permission.Preference.View' => 'Ver preferência',
+
+    'Permission.Log.Index' => 'Ver os logs',
+    'Permission.Log.View' => 'Ver log',
+    'Permission.Log.Delete' => 'Remover log',
+
+    'Permission.Reports.UserReport.Index' => 'Relatório de usuários',
+    'Permission.Reports.CustomerReport.Index' => 'Relatório de clientes',
+
+    'Group.Name.BasicAccess' => 'Acesso básico',
+
+    'Prompt.All.Male' => 'Todos',
+    'Prompt.All.Female' => 'Todas',
+];
