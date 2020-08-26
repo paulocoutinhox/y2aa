@@ -90,7 +90,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <div class="card-divider"></div>
 
-                                <?php echo $form->field($model, 'obs')->textarea(['rows' => 4]) ?>
+                                <?= $form->field($model, 'obs')->textarea(['rows' => 4]) ?>
 
                                 <div class="card-divider"></div>
 

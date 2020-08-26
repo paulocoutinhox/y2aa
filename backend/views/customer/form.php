@@ -91,7 +91,7 @@ use yii\widgets\MaskedInput;
             'options' => ['class' => 'form-control'],
         ]) ?>
 
-        <?php echo $form->field($model, 'obs')->textarea(['rows' => 4]) ?>
+        <?= $form->field($model, 'obs')->textarea(['rows' => 4]) ?>
 
     </div>
 

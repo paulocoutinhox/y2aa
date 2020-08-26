@@ -3,6 +3,7 @@
 namespace backend\controllers;
 
 use Intervention\Image\ImageManagerStatic;
+use League\Flysystem\File;
 use trntv\filekit\actions\DeleteAction;
 use trntv\filekit\actions\UploadAction;
 use Yii;
@@ -34,7 +35,7 @@ class ProfileController extends BaseController
                 'deleteRoute' => 'avatar-delete',
                 'fileStorage' => 'userProfileFileStorage',
                 'on afterSave' => function ($event) {
-                    /* @var $file \League\Flysystem\File */
+                    /* @var $file File */
                     $file = $event->file;
                     $img = ImageManagerStatic::make($file->read())->fit(256, 256);
                     $file->put($img->encode());
