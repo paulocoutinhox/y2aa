@@ -2,7 +2,7 @@
 # See: https://hub.docker.com/_/php/
 ######
 
-FROM php:7.4.0-fpm-buster
+FROM php:7.4.9-fpm-buster
 MAINTAINER Paulo Coutinho <paulo@prsolucoes.com>
 
 ######
