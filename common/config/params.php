@@ -1,4 +1,4 @@
 <?php
 return [
-    'supportedLanguages' => ['en', 'pt'],
+    'supportedLanguages' => ['en-US', 'pt-BR'],
 ];
