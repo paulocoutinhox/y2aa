@@ -2,7 +2,7 @@
 
 namespace frontend\models\form;
 
-use common\components\validator\TimezoneValidator;
+use common\components\validator\TimeZoneValidator;
 use common\models\domain\Customer;
 use Yii;
 use yii\base\Exception;
