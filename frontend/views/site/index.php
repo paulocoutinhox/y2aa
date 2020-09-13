@@ -10,11 +10,11 @@ $this->title = Yii::t('frontend', 'Title.App');
 <main role="main">
     <div class="container">
         <div class="text-center">
-            <h1 class="bd-title" id="content">
+            <h1>
                 <?= $this->title ?>
             </h1>
 
-            <br/>
+            <br>
 
             <?= Html::img('@web/images/logo.png', ['class' => 'img-fluid', 'style' => 'max-width: 200px; margin: 0 auto;']) ?>
         </div>

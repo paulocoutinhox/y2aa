@@ -21,7 +21,7 @@ use yii\web\View;
 
 <?= Html::a(Html::img(Yii::$app->params['absoluteURL'] . '/images/logo-email.png', ['width' => '220', 'style' => 'width: 220px;']), Yii::$app->params['absoluteURL']) ?>
 
-<br/>
+<br>
 
 <?= $content ?>
 
