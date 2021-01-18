@@ -203,6 +203,16 @@ The "message" field is an S2S message, that is, known only between systems. Beca
 
 ## Web services
 
+[TODO]
+
+## Add migrations
+
+To add migrations you need execute:
+
+```
+docker exec -it y2aa_php_fpm php yii migrate/create [MIGRATION-NAME-HERE] --migrationPath=@common/migrations 
+```
+
 #### Access token
 
 The protected web services need use access token in header information. Example:

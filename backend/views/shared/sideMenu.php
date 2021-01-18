@@ -162,7 +162,7 @@ use yii\helpers\Html;
                 }
 
                 $menuItems[] = [
-                    'label' => Yii::t('backend', 'SideBarMenu.Title.Report'),
+                    'label' => Yii::t('backend', 'SideBarMenu.Title.Reports'),
                     'url' => '#',
                     'icon' => 'fa-chart-pie',
                     'options' => ['class' => 'nav-item has-treeview ' . ($isOpen ? 'menu-open' : '')],

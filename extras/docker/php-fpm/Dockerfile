@@ -87,5 +87,9 @@ RUN echo "opcache.fast_shutdown=1" >> /usr/local/etc/php/conf.d/opcache-recommen
 RUN pecl install imagick-3.4.4
 RUN docker-php-ext-enable imagick
 
+# install timezonedb
+RUN pecl install timezonedb
+RUN docker-php-ext-enable timezonedb
+
 # clean image
 RUN apt-get clean

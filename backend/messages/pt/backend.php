@@ -12,7 +12,7 @@ return [
     'NavBarMenu.Logout' => 'Sair',
 
     'SideBarMenu.Title.Main' => 'Principal',
-    'SideBarMenu.Title.Report' => 'Relatório',
+    'SideBarMenu.Title.Reports' => 'Relatórios',
     'SideBarMenu.Title.System' => 'Sistema',
 
     'SideBarMenu.Item.Dashboard' => 'Dashboard',

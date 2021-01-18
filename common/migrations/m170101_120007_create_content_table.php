@@ -15,10 +15,10 @@ class m170101_120007_create_content_table extends Migration
 
         $this->createTable('{{%content}}', [
             'id' => $this->bigPrimaryKey(20),
+            'language_id' => $this->bigInteger(20)->null(),
             'title' => $this->string(255)->notNull(),
             'tag' => $this->string(255)->null(),
-            'content' => $this->text(),
-            'language_id' => $this->bigInteger(20)->null(),
+            'content' => $this->text(),            
             'status' => "ENUM('active', 'inactive')",
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->null(),
